@@ -558,40 +558,51 @@
         <h3 class="modal-baslik">
           Leave your contacts and we will call you back
         </h3>
-        <label for="modal-name">Name</label>
-        <input type="text" name="modal-name" id="modal-name" / >
-        <svg id="on-name-vector" viewBox="0 0 32 32" width="18px" height="24px">
-          <use href="./images/icons.svg#on-name-vector"></use>
-        </svg>
+        <div class="modal-orta-div">
+          <div class="boyut-input">
+            <label for="modal-name">Name</label>
+            <input type="text" name="modal-name" id="modal-name" class="boy-input"  / >
+            <svg
+              class="modal-icon"
+              viewBox="0 0 32 32"
+              width="18px"
+              height="24px"
+            >
+              <use href="./images/icons.svg#icon-name-vector"></use>
+            </svg>
+          </div>
+          <div class="boyut-input">
+            <label for="modal-phone">Phone</label>
+            <input type="tel" name="modal-phone" id="modal-phone" class="boy-input" />
+            <svg
+              class="modal-icon"
+              viewBox="0 0 32 32"
+              width="18px"
+              height="24px"
+            >
+              <use href="./images/icons.svg#icon-tel-vector"></use>
+            </svg>
+          </div>
+          <div class="boyut-input">
+            <label for="modal-email">Email</label>
+            <input type="email" name="modal-mail" id="modal-mail" class="boy-input"/>
+            <svg
+              class="modal-icon"
+              viewBox="0 0 32 32"
+              width="18px"
+              height="24px"
+            >
+              <use href="./images/icons.svg#icon-mail-vector"></use>
+            </svg>
+          </div>
+          <div class="boyut-input">
+            <label for="modal-comment">Comment</label>
+            <textarea name="modal-comment" id="modal-comment" class="boy-text"></textarea>
+          </div>
 
-        <label for="modal-phone">Phone</label>
-        <input type="tel" name="modal-phone" id="modal-phone" />
-        <svg
-          id="icon-tel-vector"
-          viewBox="0 0 32 32"
-          width="18px"
-          height="24px"
-        >
-          <use href="./images/icons.svg#icon-tel-vector"></use>
-        </svg>
-
-        <label for="modal-email">Email</label>
-        <input type="email" name="modal-mail" id="modal-mail" />
-        <svg
-          id="icon-mail-vector"
-          viewBox="0 0 32 32"
-          width="18px"
-          height="24px"
-        >
-          <use href="./images/icons.svg#icon-mail-vector"></use>
-        </svg>
-
-        <label for="modal-comment">Comment</label>
-        <textarea name="modal-comment" id="modal-comment"></textarea>
-
-        <input type="checkbox" name="modal-check" id="modal-check" />
-        I accept the terms and conditions of the Privacy Policy
-
+          <input type="checkbox" name="modal-check" id="modal-check" />
+          I accept the terms and conditions of the Privacy Policy
+        </div>
         <button class="modal-button">Send</button>
       </div>
     </div>
